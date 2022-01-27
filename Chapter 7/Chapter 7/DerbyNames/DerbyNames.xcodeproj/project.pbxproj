@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3CC791148DBA030098C6C0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3CC790148DBA030098C6C0 /* DetailViewController.m */; };
+		1FF3F4321461F564009A5706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F4311461F564009A5706 /* UIKit.framework */; };
+		1FF3F4341461F564009A5706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F4331461F564009A5706 /* Foundation.framework */; };
+		1FF3F4361461F564009A5706 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F4351461F564009A5706 /* CoreGraphics.framework */; };
+		1FF3F43C1461F564009A5706 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3F43A1461F564009A5706 /* InfoPlist.strings */; };
+		1FF3F43E1461F564009A5706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3F43D1461F564009A5706 /* main.m */; };
+		1FF3F4421461F564009A5706 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3F4411461F564009A5706 /* AppDelegate.m */; };
+		1FF3F4451461F564009A5706 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3F4431461F564009A5706 /* MainStoryboard.storyboard */; };
+		1FF3F45B1461F564009A5706 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F45A1461F564009A5706 /* SenTestingKit.framework */; };
+		1FF3F45C1461F564009A5706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F4311461F564009A5706 /* UIKit.framework */; };
+		1FF3F45D1461F564009A5706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF3F4331461F564009A5706 /* Foundation.framework */; };
+		1FF972DD14622AAF002B5031 /* VixensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF972DC14622AAF002B5031 /* VixensViewController.m */; };
+		1FF972E01462C2D8002B5031 /* LeagueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF972DF1462C2D8002B5031 /* LeagueTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF3F45E1461F564009A5706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF3F4241461F563009A5706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF3F42C1461F564009A5706;
+			remoteInfo = test33;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F3CC78F148DBA030098C6C0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1F3CC790148DBA030098C6C0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1FF3F42D1461F564009A5706 /* DerbyNames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerbyNames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF3F4311461F564009A5706 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FF3F4331461F564009A5706 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF3F4351461F564009A5706 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FF3F43B1461F564009A5706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF3F43D1461F564009A5706 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF3F4401461F564009A5706 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FF3F4411461F564009A5706 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FF3F4441461F564009A5706 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1FF3F4591461F564009A5706 /* DerbyNamesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerbyNamesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF3F45A1461F564009A5706 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1FF972DB14622AAF002B5031 /* VixensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = VixensViewController.h; sourceTree = "<group>"; };
+		1FF972DC14622AAF002B5031 /* VixensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VixensViewController.m; sourceTree = "<group>"; };
+		1FF972DE1462C2D8002B5031 /* LeagueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueTableViewController.h; sourceTree = "<group>"; };
+		1FF972DF1462C2D8002B5031 /* LeagueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF3F42A1461F564009A5706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3F4321461F564009A5706 /* UIKit.framework in Frameworks */,
+				1FF3F4341461F564009A5706 /* Foundation.framework in Frameworks */,
+				1FF3F4361461F564009A5706 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF3F4551461F564009A5706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3F45B1461F564009A5706 /* SenTestingKit.framework in Frameworks */,
+				1FF3F45C1461F564009A5706 /* UIKit.framework in Frameworks */,
+				1FF3F45D1461F564009A5706 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF3F4221461F563009A5706 = {
+			isa = PBXGroup;
+			children = (
+				1FF3F4371461F564009A5706 /* DerbyNames */,
+				1FF3F4301461F564009A5706 /* Frameworks */,
+				1FF3F42E1461F564009A5706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF3F42E1461F564009A5706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3F42D1461F564009A5706 /* DerbyNames.app */,
+				1FF3F4591461F564009A5706 /* DerbyNamesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF3F4301461F564009A5706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3F4311461F564009A5706 /* UIKit.framework */,
+				1FF3F4331461F564009A5706 /* Foundation.framework */,
+				1FF3F4351461F564009A5706 /* CoreGraphics.framework */,
+				1FF3F45A1461F564009A5706 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF3F4371461F564009A5706 /* DerbyNames */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3F4401461F564009A5706 /* AppDelegate.h */,
+				1FF3F4411461F564009A5706 /* AppDelegate.m */,
+				1FF3F4431461F564009A5706 /* MainStoryboard.storyboard */,
+				1FF972DE1462C2D8002B5031 /* LeagueTableViewController.h */,
+				1FF972DF1462C2D8002B5031 /* LeagueTableViewController.m */,
+				1FF972DB14622AAF002B5031 /* VixensViewController.h */,
+				1FF972DC14622AAF002B5031 /* VixensViewController.m */,
+				1FF3F4381461F564009A5706 /* Supporting Files */,
+				1F3CC78F148DBA030098C6C0 /* DetailViewController.h */,
+				1F3CC790148DBA030098C6C0 /* DetailViewController.m */,
+			);
+			name = DerbyNames;
+			path = test33;
+			sourceTree = "<group>";
+		};
+		1FF3F4381461F564009A5706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3F43A1461F564009A5706 /* InfoPlist.strings */,
+				1FF3F43D1461F564009A5706 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF3F42C1461F564009A5706 /* DerbyNames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF3F46B1461F564009A5706 /* Build configuration list for PBXNativeTarget "DerbyNames" */;
+			buildPhases = (
+				1FF3F4291461F564009A5706 /* Sources */,
+				1FF3F42A1461F564009A5706 /* Frameworks */,
+				1FF3F42B1461F564009A5706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DerbyNames;
+			productName = test33;
+			productReference = 1FF3F42D1461F564009A5706 /* DerbyNames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF3F4581461F564009A5706 /* DerbyNamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF3F46E1461F564009A5706 /* Build configuration list for PBXNativeTarget "DerbyNamesTests" */;
+			buildPhases = (
+				1FF3F4541461F564009A5706 /* Sources */,
+				1FF3F4551461F564009A5706 /* Frameworks */,
+				1FF3F4561461F564009A5706 /* Resources */,
+				1FF3F4571461F564009A5706 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF3F45F1461F564009A5706 /* PBXTargetDependency */,
+			);
+			name = DerbyNamesTests;
+			productName = test33Tests;
+			productReference = 1FF3F4591461F564009A5706 /* DerbyNamesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF3F4241461F563009A5706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Gravity Works Design";
+			};
+			buildConfigurationList = 1FF3F4271461F563009A5706 /* Build configuration list for PBXProject "DerbyNames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF3F4221461F563009A5706;
+			productRefGroup = 1FF3F42E1461F564009A5706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF3F42C1461F564009A5706 /* DerbyNames */,
+				1FF3F4581461F564009A5706 /* DerbyNamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF3F42B1461F564009A5706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3F43C1461F564009A5706 /* InfoPlist.strings in Resources */,
+				1FF3F4451461F564009A5706 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF3F4561461F564009A5706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FF3F4571461F564009A5706 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF3F4291461F564009A5706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF3F43E1461F564009A5706 /* main.m in Sources */,
+				1FF3F4421461F564009A5706 /* AppDelegate.m in Sources */,
+				1FF972DD14622AAF002B5031 /* VixensViewController.m in Sources */,
+				1FF972E01462C2D8002B5031 /* LeagueTableViewController.m in Sources */,
+				1F3CC791148DBA030098C6C0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF3F4541461F564009A5706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF3F45F1461F564009A5706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF3F42C1461F564009A5706 /* DerbyNames */;
+			targetProxy = 1FF3F45E1461F564009A5706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FF3F43A1461F564009A5706 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF3F43B1461F564009A5706 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FF3F4431461F564009A5706 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF3F4441461F564009A5706 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF3F4691461F564009A5706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FF3F46A1461F564009A5706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF3F46C1461F564009A5706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test33/DerbyNames-Prefix.pch";
+				INFOPLIST_FILE = "test33/DerbyNames-Info.plist";
+				PRODUCT_NAME = DerbyNames;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FF3F46D1461F564009A5706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test33/DerbyNames-Prefix.pch";
+				INFOPLIST_FILE = "test33/DerbyNames-Info.plist";
+				PRODUCT_NAME = DerbyNames;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FF3F46F1461F564009A5706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/test33.app/test33";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test33/test33-Prefix.pch";
+				INFOPLIST_FILE = "test33Tests/test33Tests-Info.plist";
+				PRODUCT_NAME = DerbyNamesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1FF3F4701461F564009A5706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/test33.app/test33";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "test33/test33-Prefix.pch";
+				INFOPLIST_FILE = "test33Tests/test33Tests-Info.plist";
+				PRODUCT_NAME = DerbyNamesTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF3F4271461F563009A5706 /* Build configuration list for PBXProject "DerbyNames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF3F4691461F564009A5706 /* Debug */,
+				1FF3F46A1461F564009A5706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF3F46B1461F564009A5706 /* Build configuration list for PBXNativeTarget "DerbyNames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF3F46C1461F564009A5706 /* Debug */,
+				1FF3F46D1461F564009A5706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF3F46E1461F564009A5706 /* Build configuration list for PBXNativeTarget "DerbyNamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF3F46F1461F564009A5706 /* Debug */,
+				1FF3F4701461F564009A5706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF3F4241461F563009A5706 /* Project object */;
+}
